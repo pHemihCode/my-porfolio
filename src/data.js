@@ -1,4 +1,4 @@
-import Card from './assets/Card.jpg'
+import Tracker from './assets/trackerr.png'
 import Cloud from './assets/Cloud.png'
 import Easy from './assets/Easy.png'
 import Mixmaster from './assets/mixmaster.jpg'
@@ -7,10 +7,10 @@ import Todo from './assets/todo.jpg'
 export default [
     {
         id:1,
-        img:Card,
-        name:'Card Registration Page',
-        languages:'HTML5, CSS3, Javascript',
-        link: 'https://card-registration.netlify.app/'
+        img:Tracker,
+        name:'IP-Tracker',
+        languages:'REACT.JS, Typscript, Tailwind CSS',
+        link: 'https://ip-trackee.netlify.app/'
     },
     {
         id:2,
