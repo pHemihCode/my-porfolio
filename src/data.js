@@ -3,21 +3,21 @@ import Cloud from './assets/Cloud.png'
 import Easy from './assets/Easy.png'
 import Mixmaster from './assets/mixmaster.jpg'
 import Menu from './assets/menu.jpg'
-import Todo from './assets/todo.jpg'
+import getLinked from './assets/getlinked.png'
 export default [
     {
         id:1,
+        img:getLinked,
+        name:'GetLinked',
+        languages:'Next.js, TypeScript, Tailwind CSS',
+        link:'https://get-linked-henna.vercel.app/'
+    },
+    {
+        id:2,
         img:Tracker,
         name:'IP-Tracker',
         languages:'REACT.JS, Typscript, Tailwind CSS',
         link: 'https://ip-trackee.netlify.app/'
-    },
-    {
-        id:2,
-        img:Cloud,
-        name:'Cloud Service Subscription',
-        languages:'HTML5, CSS3, Javascript',
-        link:'https://clouddy.netlify.app/'
     },
     {
         id:3,
@@ -35,10 +35,10 @@ export default [
     },
     {
         id:5,
-        img:Todo,
-        name:'Todo List',
-        languages:'HTML5, CSS3, Javascript, React.js',
-        link: 'https://phoenix-list.netlify.app/'
+        img:Cloud,
+        name:'Cloud Service Subscription',
+        languages:'HTML5, CSS3, Javascript',
+        link:'https://clouddy.netlify.app/'
     },
     {
         id:6,
